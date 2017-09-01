@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>ULTIMO Admin Dashboard Template</title>
+        <title>Repositorio de datos | Unicolombo</title>
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
@@ -45,93 +45,29 @@
     <!--\\\\\\\ header Start \\\\\\-->
     <div class="brand">
       <!--\\\\\\\ brand Start \\\\\\-->
-      <div class="logo" style="display:block"><span class="theme_color">INFORME</span></div>
+      <div class="logo-mini" style="display:block"><span class="theme_color">Repositorio de datos</span></div>
       <div class="small_logo" style="display:none"><img src="images/s-logo.png" width="50" height="47" alt="s-logo" /> <img src="images/r-logo.png" width="122" height="20" alt="r-logo" /></div>
     </div>
     <!--\\\\\\\ brand end \\\\\\-->
     <div class="header_top_bar">
       <!--\\\\\\\ header top bar start \\\\\\-->
-      
-     
       <div class="top_right_bar">
         <div class="top_right">
           <div class="top_right_menu">
             <ul>
-              <li class="dropdown"> <a href="javascript:void(0);" data-toggle="dropdown"> Avances <span class="badge badge">8</span> </a>
-                <ul class="drop_down_task dropdown-menu">
-                  <div class="top_pointer"></div>
-                  <li>
-                    <p class="number">You have 7 pending tasks</p>
-                  </li>
-                  <li> <a href="task.html" class="task">
-                    <div class="green_status task_height" style="width:80%;"></div>
-                    <div class="task_head"> <span class="pull-left">Task Heading</span> <span class="pull-right green_label">80%</span> </div>
-                    <div class="task_detail">Task details goes here</div>
-                    </a> </li>
-                  <li> <a href="task.html" class="task">
-                    <div class="yellow_status task_height" style="width:50%;"></div>
-                    <div class="task_head"> <span class="pull-left">Task Heading</span> <span class="pull-right yellow_label">50%</span> </div>
-                    <div class="task_detail">Task details goes here</div>
-                    </a> </li>
-                  <li> <a href="task.html" class="task">
-                    <div class="blue_status task_height" style="width:70%;"></div>
-                    <div class="task_head"> <span class="pull-left">Task Heading</span> <span class="pull-right blue_label">70%</span> </div>
-                    <div class="task_detail">Task details goes here</div>
-                    </a> </li>
-                  <li> <a href="task.html" class="task">
-                    <div class="red_status task_height" style="width:85%;"></div>
-                    <div class="task_head"> <span class="pull-left">Task Heading</span> <span class="pull-right red_label">85%</span> </div>
-                    <div class="task_detail">Task details goes here</div>
-                    </a> </li>
-                  <li> <span class="new"> <a href="task.html" class="pull_left">Create New</a> <a href="task.html" class="pull-right">View All</a> </span> </li>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="javascript:void(0);" data-toggle="dropdown"> Emails <span class="badge badge color_1">4</span> </a>
-                <ul class="drop_down_task dropdown-menu">
-                  <div class="top_pointer"></div>
-                  <li>
-                    <p class="number">You have 4 mails</p>
-                  </li>
-                      <li> <a href="readmail.html" class="mail"> <span class="photo"><img src="images/user.png" /></span> <span class="subject"> <span class="from">sarat m</span> <span class="time">just now</span> </span> <span class="message">Hello,this is an example msg.</span> </a> </li>
-                  <li> <a href="readmail.html" class="mail"> <span class="photo"><img src="images/user.png" /></span> <span class="subject"> <span class="from">sarat m</span> <span class="time">just now</span> </span> <span class="message">Hello,this is an example msg.</span> </a> </li>
-                  <li> <a href="readmail.html" class="mail red_color"> <span class="photo"><img src="images/user.png" /></span> <span class="subject"> <span class="from">sarat m</span> <span class="time">just now</span> </span> <span class="message">Hello,this is an example msg.</span> </a> </li>
-                  <li> <a href="readmail.html" class="mail"> <span class="photo"><img src="images/user.png" /></span> <span class="subject"> <span class="from">sarat m</span> <span class="time">just now</span> </span> <span class="message">Hello,this is an example msg.</span> </a> </li>
               
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="javascript:void(0);" data-toggle="dropdown"> Trabajos <span class="badge badge color_2">6</span> </a>
-                <div class="notification_drop_down dropdown-menu">
-                  <div class="top_pointer"></div>
-                  <div class="box"> <a href="inbox.html"> <span class="block primery_6"> <i class="fa fa-envelope-o"></i> </span> <span class="block_text">Mailbox</span> </a> </div>
-                  <div class="box"> <a href="calendar.html"> <span class="block primery_2"> <i class="fa fa-calendar-o"></i> </span> <span class="block_text">Calendar</span> </a> </div>
-                  <div class="box"> <a href="maps.html"> <span class="block primery_4"> <i class="fa fa-map-marker"></i> </span> <span class="block_text">Map</span> </a> </div>
-                  <div class="box"> <a href="todo.html"> <span class="block primery_3"> <i class="fa fa-plane"></i> </span> <span class="block_text">To-Do</span> </a> </div>
-                  <div class="box"> <a href="task.html"> <span class="block primery_5"> <i class="fa fa-picture-o"></i> </span> <span class="block_text">Tasks</span> </a> </div>
-                  <div class="box"> <a href="timeline.html"> <span class="block primery_1"> <i class="fa fa-clock-o"></i> </span> <span class="block_text">Timeline</span> </a> </div>
-                </div>
-              </li>
             </ul>
           </div>
-        </div>
-        <div class="user_admin dropdown"> <a href="javascript:void(0);" data-toggle="dropdown"><img src="images/user.png" /><span class="user_adminname">John Doe</span> <b class="caret"></b> </a>
-          <ul class="dropdown-menu">
-            <div class="top_pointer"></div>
-            <li> <a href="profile.html"><i class="fa fa-user"></i> Profile</a> </li>
-            <li> <a href="help.html"><i class="fa fa-question-circle"></i> Help</a> </li>
-            <li> <a href="settings.html"><i class="fa fa-cog"></i> Setting </a></li>
-            <li> <a href="login.jsp"><i class="fa fa-power-off"></i> Logout</a> </li>
-          </ul>
-        </div>
-
-       
+        </div>       
       </div>
     </div>
     <!--\\\\\\\ header top bar end \\\\\\-->
   </div>
   <!--\\\\\\\ header end \\\\\\-->
   <div class="inner">
-    <!--\\\\\\\ inner start \\\\\\--><div class="left_nav">
-
+    <!--\\\\\\\ inner start \\\\\\-->
+    <div class="left_nav">
+  
       <!--\\\\\\\left_nav start \\\\\\-->
       <div class="search_bar"> <i class="fa fa-search"></i>
         <input name="" type="text" class="search" placeholder="Buscar..." />
@@ -141,9 +77,18 @@
           <li><a href="javascript:void(0);"><i class="fa fa-home"></i> INICIO </a>
            
           </li>
-          <li> <a href="listarinforme.jsp" target="formularios"> <i class="fa fa-edit"></i> INFORME </a>
-           
-          </li>
+          <li class="treeview">
+          <a href="#">
+            <i class="fa fa-table"></i> <span>Proyectos</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+            <ul class="treeview-menu">
+            <li><a href=""><i class="fa fa-circle-o"></i> Proyecto</a></li>
+            <li><a href=""><i class="fa fa-circle-o"></i> Observaciones</a></li>
+          </ul>
+        </li>
           <li> <a href="listarprogramaformacion.jsp"  target="formularios"> <i class="fa fa-apple"></i> PROGRAMA FORMACION </a>
            
           </li>
