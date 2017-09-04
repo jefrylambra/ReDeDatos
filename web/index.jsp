@@ -51,14 +51,13 @@
     <!--\\\\\\\ brand end \\\\\\-->
     <div class="header_top_bar">
       <!--\\\\\\\ header top bar start \\\\\\-->
-      <div class="top_right_bar">
-        <div class="top_right">
-          <div class="top_right_menu">
-            <ul>
-              
-            </ul>
-          </div>
-        </div>       
+      <div class="navbar-custom-menu">
+        <form action="login.jsp" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="submit" name="q" class="form-control" value="Iniciar Sesión">
+          <span class="input-group-btn"></span>
+        </div>
+      </form>
       </div>
     </div>
     <!--\\\\\\\ header top bar end \\\\\\-->
@@ -74,7 +73,7 @@
       </div>
       <div class="left_nav_slidebar">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="javascript:void(0);"><i class="fa fa-home"></i> INICIO </a>
+          <li><a href="javascript:void"><i class="fa fa-home"></i> INICIO </a>
            
           </li>
           <li class="treeview">
@@ -89,41 +88,53 @@
             <li><a href=""><i class="fa fa-circle-o"></i> Observaciones</a></li>
           </ul>
         </li>
-          <li> <a href="listarprogramaformacion.jsp"  target="formularios"> <i class="fa fa-apple"></i> PROGRAMA FORMACION </a>
-           
-          </li>
-          <li> <a href="listarcompetenciaprograma.jsp"  target="formularios"> <i class="fa fa-folder-open-o"></i> COMP.PROGRAMA</a>
-           
-          </li>
-          <li> <a href="listardetalleinforme.jsp" target="formularios"> <i class="fa fa-tasks"></i> DETALLES INFORME </a>
-           
-          </li>
-          <li> <a href="listarevaluacionresultados.jsp" target="formularios"> <i class="fa fa-book"></i> EVALUACION </a>
-           
-          </li>
-          <li> <a href="listarresultadoaprendizaje.jsp" target="formularios"> <i class="fa fa-desktop"></i> RESULTADO APRENDIZAJE </a>
-            
-          </li>
-          
-          <li> <a href="listaravanceformacion.jsp"  target="formularios"> <i class="fa fa-anchor"></i> AVANCES </a>
-           
-          </li>
-          <li> <a href="listarcompetencias.jsp" target="formularios"> <i class="fa fa-th"></i> COMPETENCIAS </a>
-            
-          </li>
-          <li> <a href="listarempleado.jsp" target="formularios"> <i class="fa fa-users icon"></i> EMPLEADOS </a>
-            
-          </li>
-          
-           <li> <a href="listarnovedades.jsp" target="formularios"> <i class="fa fa-bell"></i> NOVEDADES </a>
-           
-          </li>
-           <li> <a href="listartipoempleado.jsp" target="formularios"> <i class="fa fa-user"></i> TIPOS DE EMPLEADO  </a>
-            
-          </li>
-          <li> <a href="javascript:void(0);"> <i class="fa fa-envelope"></i> MENSAJES </a>
-            
-          </li>
+        <li class="treeview">
+          <a href="autor.jsp">
+            <i class="glyphicon glyphicon-user"></i> <span>Autor</span>
+            <span class="pull-right-container">
+            </span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="glyphicon glyphicon-folder-open"></i> <span>Contenido</span>
+            <span class="pull-right-container">
+            </span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="glyphicon glyphicon-book"></i> <span>Colección</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+            <ul class="treeview-menu">
+            <li><a href="comunidad.jsp"><i class="fa fa-circle-o"></i> Comunidad</a></li>
+            <li><a href=""><i class="fa fa-circle-o"></i> Subcomunidad</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-files-o"></i> <span>Metadatos</span>
+            <span class="pull-right-container">
+            </span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="glyphicon glyphicon-exclamation-sign"></i> <span>Reportes</span>
+            <span class="pull-right-container">
+            </span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="glyphicon glyphicon-menu-hamburger"></i> <span>Publicaciones</span>
+            <span class="pull-right-container">
+            </span>
+          </a>
+        </li>
           
         </ul>
       </div>

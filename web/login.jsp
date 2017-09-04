@@ -9,7 +9,7 @@
 <html>
     <head>
        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>ULTIMO Admin Dashboard Template</title>
+        <title>Repositorio de datos | Unicolombo | login</title>
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -30,36 +30,25 @@
   
   
   
-  <div class="login_page">
-  <div class="login_content">
-  <div class="panel-heading border login_heading">sign in now</div>	
- <form role="form" class="form-horizontal">
-      <div class="form-group">
+  <div class="container" >
+
+        <form action="usuarioSvl" class="form-signin" method="GET">
+            <h2 class="form-signin-heading" style="color: white">Iniciar Sesión</h2> 
+        <label for="inputEmail" class="sr-only">Usuario</label>
+        <input type="text" name="usuario" class="form-control" placeholder="Usuario" required autofocus><br>
+          
+        <label for="inputPassword" class="sr-only">Contraseña</label>
+        <input type="password" name="pass" class="form-control" placeholder="Contraseña" required>
+        <div class="checkbox">
+          <label>
+              <input type="checkbox"  value="remember-me">  <label style="color: white" >Recordar Contraseña</label>
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="btnLogin" value="ingresar">Ingresar</button>
+      </form>
+        </br>
         
-        <div class="col-sm-10">
-          <input type="email" placeholder="Email" id="inputEmail3" class="form-control">
-        </div>
-      </div>
-      <div class="form-group">
-        
-        <div class="col-sm-10">
-          <input type="password" placeholder="Password" id="inputPassword3" class="form-control">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class=" col-sm-10">
-          <div class="checkbox checkbox_margin">
-            <label class="lable_margin">
-              <input type="checkbox"><p class="pull-left"> Remember me</p></label>
-              <a href="index.html">
-              <button class="btn btn-default pull-right" type="submit">Sign in</button>
-              </a></div>
-        </div>
-      </div>
-      
-    </form>
- </div>
-  </div>
+    </div>
   
   
   
