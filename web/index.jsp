@@ -52,12 +52,14 @@
     <div class="header_top_bar">
       <!--\\\\\\\ header top bar start \\\\\\-->
       <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav navbar-right">
         <form action="login.jsp" method="get" class="sidebar-form">
         <div class="input-group">
           <input type="submit" name="q" class="form-control" value="Iniciar Sesión">
           <span class="input-group-btn"></span>
         </div>
       </form>
+      </ul>
       </div>
     </div>
     <!--\\\\\\\ header top bar end \\\\\\-->
@@ -73,7 +75,7 @@
       </div>
       <div class="left_nav_slidebar">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="javascript:void"><i class="fa fa-home"></i> INICIO </a>
+          <li><a href="index.jsp"><i class="fa fa-home"></i> INICIO </a>
            
           </li>
           <li class="treeview">
@@ -84,7 +86,7 @@
             </span>
           </a>
             <ul class="treeview-menu">
-            <li><a href=""><i class="fa fa-circle-o"></i> Proyecto</a></li>
+            <li><a href="proyecto.jsp"><i class="fa fa-circle-o"></i> Proyecto</a></li>
             <li><a href=""><i class="fa fa-circle-o"></i> Observaciones</a></li>
           </ul>
         </li>

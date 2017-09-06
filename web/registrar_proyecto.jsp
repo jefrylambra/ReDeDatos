@@ -1,15 +1,9 @@
 <%-- 
-    Document   : registrar_productos.jsp
-    Created on : 17/07/2017, 09:58:52 PM
-    Author     : toshiba
+    Document   : registrar_comunidad
+    Created on : 14/08/2017, 03:16:07 PM
+    Author     : ESTUDIANTES
 --%>
 
-<%@page import="com.appRedDat.dao.CategoriaDaoImpl"%>
-<%@page import="com.appRedDat.modelo.Categoria"%>
-<%@page import="java.util.ArrayList"%>
-<%@page import="java.util.List"%>
-<%@page import="com.appRedDat.modelo.comunidad"%>
-<%@page import="com.appRedDat.dao.ComunidadDaoImpl"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +13,7 @@
  
    
 
-    <title>Repositorio de datos | Unicolombo | Comunidad</title>
+    <title>Repositorio de datos | Unicolombo | Proyecto</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,12 +24,10 @@
 
    
   </head>
-         <%
-      CategoriaDaoImpl dao = new CategoriaDaoImpl();
-      List<Categoria> listCategoria = new ArrayList();
-      
-      
-   %>
+  
+
+        
+  
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -54,15 +46,18 @@
 
     <div class="container-fluid">
         <div class="row">
+          <div class="col-sm-3 col-md-2 sidebar">
+
+          </div>
           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h1 class="page-header">Comunidad</h1>
+            <h1 class="page-header">Proyecto</h1>
 
             <div class="row placeholders">
                 <div class="row">
                   <div class="col-xs-6 col-sm-4"></div>
                   <div class="col-xs-6 col-sm-4"></div>
                   <div class="clearfix visible-xs-block"></div>
-                  <div class="col-xs-6 col-sm-4"><button type="button" class="btn btn-primary" onclick="window.location.href='comunidad.jsp'">Regresar</button></div>
+                  <div class="col-xs-6 col-sm-4"><button type="button" class="btn btn-primary" onclick="window.location.href='proyecto.jsp'">Regresar</button></div>
                 </div>
 
             </div>
@@ -72,40 +67,47 @@
             <div class="col-2 col-lg-3">
 
             </div>
-              <%
-                comunidad com = (comunidad) request.getAttribute("comunidad");
-                //String id = String.valueOf(prod.getIdCategoria());
-                %>
 <!-- Inicia el formulario -->              
 <form action="PruebaSvl" method="post">
             <div class="col-6 col-lg-6">
-                <input type="hidden" name="codigo" readonly="readonly" />
+                 <fieldset disabled>
               <div class="form-group row">
-                <label for="example-text-input" class="col-2 col-form-label">Nombre de la comunidad</label>
+                <label for="example-text-input" class="col-2 col-form-label">Código del proyecto</label>
                 <div class="col-10">
-                    <input class="form-control" type="text" name="nombre" value='<%= com.getNombre()%>'>
+                    <input class="form-control" type="text" placeholder="Código" value='' >
                 </div>
-              </div> 
+                
+              </div>
+                 </fieldset>
+                <input type="hidden" name="codigo" value='P0016' readonly="readonly" />
+              <div class="form-group row">
+                <label for="example-text-input" class="col-2 col-form-label">Nombre del proyecto</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Nombre" id="nombreProyecto" name="nombre" required="Ingrese nombre">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="example-text-input" class="col-2 col-form-label">Descripción</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Descripción" id="descripcionProyecto" name="dexcripsion" required="Ingrese una descripcion">
+                </div>
+              </div>
+                <div class="form-group row">
+                <label for="example-text-input" class="col-2 col-form-label">Titulo</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" placeholder="Titulo" id="tituloProyecto" name="titulo" required="Ingrese un titulo">
+                </div>
+              </div>
+                
+                <fieldset disabled>
                     <div class="form-group row">
                       <label for="example-text-input" class="col-2 col-form-label">Estado</label>
                       <div class="col-10">
-                          <select class="form-control" name="estado">
-                                <option selected><%= com.getEstado() %></option>
-                                <%
-                                    if(com.getEstado().equals("Activo")){
-                                        %><option value="2">Inactivo</option> <%
-                                    }else{
-                                        %><option value="2">Activo</option> <%
-                                    }
-                                %>
-                            
-                                
-                                
-                              </select> 
+                          <input class="form-control" type="text" name="estados" value="Activo" id="codigoProyecto" >
                           
                       </div>
                     </div>
-                    
+                    </fieldset>
                 <input type="hidden" name="estado" value="Activo" readonly="readonly" />
                 <div class="form-group row">
                     <button type="submit" class="btn btn-primary" name="btnRegistrar" value="Registrar">Registrar</button>
@@ -127,4 +129,3 @@
 
   </body>
 </html>
-       

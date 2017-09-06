@@ -19,18 +19,9 @@
     
         
 
-<body style="background-image: url(images/477585630.jpg); width:300px;height:200px;color:black;font-size:18px;border:1px solid #ccc;padding:5px;">
+<body background="https://s-media-cache-ak0.pinimg.com/originals/18/ad/1b/18ad1ba11b9246a2ebf5978b903ab384.jpg">
 
-
-
-<div class="wrapper">
-  <!--\\\\\\\ wrapper Start \\\\\\-->
-  
-  
-  
-  
-  
-  <div class="container" >
+    <div class="container">
 
         <form action="usuarioSvl" class="form-signin" method="GET">
             <h2 class="form-signin-heading" style="color: white">Iniciar Sesión</h2> 
@@ -49,16 +40,6 @@
         </br>
         
     </div>
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-<!--\\\\\\\ wrapper end\\\\\\-->
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -102,5 +83,6 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/common-script.js"></script>
 <script src="js/jquery.slimscroll.min.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js"></script>
     </body>
 </html>
