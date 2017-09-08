@@ -53,7 +53,7 @@
       <!--\\\\\\\ header top bar start \\\\\\-->
       <div class="navbar-custom-menu">
           <ul class="nav navbar-nav navbar-right">
-        <form action="login.jsp" method="get" class="sidebar-form">
+        <form action="login.jsp" method="get" class="sidebar-form" target="formulario">
         <div class="input-group">
           <input type="submit" name="q" class="form-control" value="Iniciar Sesión">
           <span class="input-group-btn"></span>
@@ -75,64 +75,64 @@
       </div>
       <div class="left_nav_slidebar">
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="index.jsp"><i class="fa fa-home"></i> INICIO </a>
+          <li><a href="" target=""><i class="fa fa-home"></i> INICIO </a>
            
           </li>
           <li class="treeview">
           <a href="#">
-            <i class="fa fa-table"></i> <span>Proyectos</span>
+            <i class="fa fa-table" target="formulario"></i> <span>Proyectos</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
             <ul class="treeview-menu">
-            <li><a href="proyecto.jsp"><i class="fa fa-circle-o"></i> Proyecto</a></li>
-            <li><a href=""><i class="fa fa-circle-o"></i> Observaciones</a></li>
+            <li><a href="proyecto.jsp" target="formulario"><i class="fa fa-circle-o" ></i> Proyecto</a></li>
+            <li><a href="" target="formulario"><i class="fa fa-circle-o" ></i> Observaciones</a></li>
           </ul>
         </li>
         <li class="treeview">
-          <a href="autor.jsp">
-            <i class="glyphicon glyphicon-user"></i> <span>Autor</span>
+          <a href="autor.jsp" target="formulario">
+            <i class="glyphicon glyphicon-user" ></i> <span>Autor</span>
             <span class="pull-right-container">
             </span>
           </a>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="glyphicon glyphicon-folder-open"></i> <span>Contenido</span>
+            <i class="glyphicon glyphicon-folder-open" target="formulario"></i> <span>Contenido</span>
             <span class="pull-right-container">
             </span>
           </a>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="glyphicon glyphicon-book"></i> <span>Colección</span>
+            <i class="glyphicon glyphicon-book" target="formulario"></i> <span>Colección</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
             <ul class="treeview-menu">
-            <li><a href="comunidad.jsp"><i class="fa fa-circle-o"></i> Comunidad</a></li>
-            <li><a href=""><i class="fa fa-circle-o"></i> Subcomunidad</a></li>
+                <li><a href="comunidad.jsp" target="formulario"><i class="fa fa-circle-o"></i> Comunidad</a></li>
+            <li><a href=""><i class="fa fa-circle-o" target="formulario"></i> Subcomunidad</a></li>
           </ul>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-files-o"></i> <span>Metadatos</span>
+            <i class="fa fa-files-o" target="formulario"></i> <span>Metadatos</span>
             <span class="pull-right-container">
             </span>
           </a>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="glyphicon glyphicon-exclamation-sign"></i> <span>Reportes</span>
+            <i class="glyphicon glyphicon-exclamation-sign" target="formulario"></i> <span>Reportes</span>
             <span class="pull-right-container">
             </span>
           </a>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="glyphicon glyphicon-menu-hamburger"></i> <span>Publicaciones</span>
+            <i class="glyphicon glyphicon-menu-hamburger" target="formulario"></i> <span>Publicaciones</span>
             <span class="pull-right-container">
             </span>
           </a>
@@ -144,7 +144,7 @@
     <!--\\\\\\\left_nav end \\\\\\-->
     <div class="contentpanel">
       
-        <iframe  width="100%" height="1000px" name="formularios" frameborder="0"  ></iframe>
+        <iframe  width="100%" height="1000px" name="formulario" frameborder="0"  ></iframe>
 
       </div>
 
